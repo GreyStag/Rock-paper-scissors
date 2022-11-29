@@ -9,6 +9,22 @@
         let playersDecision = playersInput.toLowerCase();
         console.log(playersDecision);
 
+        function computersChoice(){
+            let computerInput = Math.floor(Math.random() * 3);
+            if (computerInput == 0) {
+                return ("rock")
+            }
+            else if (computerInput == 1) {
+                return ("paper")
+            }
+            else {
+                return ("scissors")
+            }
+        };
+        computersChoice()
+
+        let compChoice = computersChoice()
+        console.log(compChoice);
        
 
     </script>
