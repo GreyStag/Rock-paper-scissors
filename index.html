@@ -28,27 +28,27 @@
 
         function winnerWinnerChickenDinner (compChoice, playersDecision){ 
             if (playersDecision == "rock" && compChoice == "scissors") {
-                return alert("You Win!")
+                return alert("You Win! Rock beats Scissors")
             }
             else if (playersDecision == "paper" && compChoice == "rock") {
-                return alert("You Win!")
+                return alert("You Win! Paper beats Rock")
             }
             else if (playersDecision == "scissors" && compChoice == "paper") {
-                return alert("You Win!")
+                return alert("You Win! Scissors beat Paper")
             }
             
 
             else if (playersDecision == "paper"&& compChoice == "scissors"){
-                return alert("You Lose!")
+                return alert("You Lose! Paper loses to Scissors")
             }
             else if (playersDecision == "rock" && compChoice == "paper"){
-                return alert("You Lose!")
+                return alert("You Lose! Rock loses to Paper")
             }
             else if (playersDecision == "scissors" && compChoice == "rock") {
-                return alert("You Lose!")
+                return alert("You Lose! Scissors lose to Rock")
             }
             else {
-                return alert("Tie!")
+                return alert("Tie! You both tried " + playersDecision + ".")
             }
         };
         winnerWinnerChickenDinner(compChoice, playersDecision)
