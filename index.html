@@ -25,6 +25,33 @@
 
         let compChoice = computersChoice()
         console.log(compChoice);
+
+        function winnerWinnerChickenDinner (compChoice, playersDecision){ 
+            if (playersDecision == "rock" && compChoice == "scissors") {
+                return alert("You Win!")
+            }
+            else if (playersDecision == "paper" && compChoice == "rock") {
+                return alert("You Win!")
+            }
+            else if (playersDecision == "scissors" && compChoice == "paper") {
+                return alert("You Win!")
+            }
+            
+
+            else if (playersDecision == "paper"&& compChoice == "scissors"){
+                return alert("You Lose!")
+            }
+            else if (playersDecision == "rock" && compChoice == "paper"){
+                return alert("You Lose!")
+            }
+            else if (playersDecision == "scissors" && compChoice == "rock") {
+                return alert("You Lose!")
+            }
+            else {
+                return alert("Tie!")
+            }
+        };
+        winnerWinnerChickenDinner(compChoice, playersDecision)
        
 
     </script>
