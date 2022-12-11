@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(42, 50, 54);
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.game-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: aliceblue;
+}
+
+.btn-choices {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+
+.btn {
+    border-style: solid 1px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(122, 120, 134);
+}   
