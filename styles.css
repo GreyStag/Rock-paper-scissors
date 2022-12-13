@@ -9,12 +9,17 @@ img {
     height: 180px;
 }
 
+p {
+    color: aliceblue;
+    font-size: 32px;
+}
+
 .game-title {
     display: flex;
     justify-content: center;
     padding-top: 150px;
     padding-bottom: 50px;
-    color: aliceblue;
+    
 }
 
 .btn-choices {
@@ -31,3 +36,21 @@ img {
     height: 200px;
     background-color: rgb(122, 120, 134);
 }   
+
+.computer-player {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 50px;
+
+    
+}
+
+.roundCurrent p {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 50px;
+    font-size: 20px;
+
+}

@@ -7,14 +7,25 @@
 <body>
 
     <div class="game-title">
-        <h1>Which option do you choose?</h1>
+        <p>Which option do you choose?</p>
     </div>
-    <div class="btn-choices">
-        <button class="btn"><img src="images/rock.png" alt="rock"></button>
-        <button class="btn"><img src="images/paper.png" alt="paper"></button>
-        <button class="btn"><img src="images/scissors.png" alt="scissors"></button>
+    <div id="btnId" class="btn-choices">
+        <button  class="btn r"><img id="r" src="images/rock.png" alt="rock"></button>
+        <button  class="btn p"><img id="p" src="images/paper.png" alt="paper"></button>
+        <button  class="btn s"><img id="s" src="images/scissors.png" alt="scissors"></button>
     </div>
     
+    <div class="computer-player">
+        <div>
+            <p class="compContent">Computer Score: </p>
+        </div>
+        <div>
+            <p class="playContent">Player Score:</p>
+        </div>
+    </div>
+    <div class="roundCurrent">
+        <p class="round-winner">Last Round: </p>
+    </div>
 
 <script src="code.js"></script>
 </body>
