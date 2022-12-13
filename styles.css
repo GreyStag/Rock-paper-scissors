@@ -14,13 +14,35 @@ p {
     font-size: 32px;
 }
 
-.game-title {
+input {
+    background-color: rgb(42, 50, 54);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#gameTitle {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(28, 35, 39);
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.title {
+    font-size: 50px;
+    padding: 0%;
+    margin: 20px;
+}
+
+.playRounds {
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 50px;
     
 }
+
 
 .btn-choices {
     display: flex;
@@ -35,6 +57,7 @@ p {
     width: 200px;
     height: 200px;
     background-color: rgb(122, 120, 134);
+    border-radius: 25px;
 }   
 
 .computer-player {
@@ -53,4 +76,9 @@ p {
     padding-top: 50px;
     font-size: 20px;
 
+}
+
+.newGame {
+    padding-top: 10px;
+    margin: 0%;
 }

@@ -5,27 +5,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="game">
+        <div id="gameTitle">
+            <div>
+                <p class="title">Rock</p>
+            </div>
+            <div>
+                <p class="title">Paper</p>
+            </div>
+            <div>
+                <p class="title">Scissors</p>
+            </div>
+        </div>
+        <div id="numRounds" >
+            <p class="playRounds">You have 5 lives, what weapon do you choose?</p>
+            
+        </div>
+        <div id="btnId" class="btn-choices">
+            <button id="buttonRemove" class="btn r"><img id="rock" src="images/rock.png" alt="rock"></button>
+            <button id="buttonRemove" class="btn p"><img id="paper" src="images/paper.png" alt="paper"></button>
+            <button id="buttonRemove" class="btn s"><img id="scissors" src="images/scissors.png" alt="scissors"></button>
+        </div>
+        
+        <div class="computer-player">
+            <div>
+                <p class="compContent">Computer Score: </p>
+            </div>
+            <div>
+                <p class="playContent">Player Score:</p>
+            </div>
+        </div>
+        <div class="roundCurrent">
+            <p class="round-winner">Last Round: </p>
+        
+        </div>
 
-    <div class="game-title">
-        <p>Which option do you choose?</p>
-    </div>
-    <div id="btnId" class="btn-choices">
-        <button  class="btn r"><img id="r" src="images/rock.png" alt="rock"></button>
-        <button  class="btn p"><img id="p" src="images/paper.png" alt="paper"></button>
-        <button  class="btn s"><img id="s" src="images/scissors.png" alt="scissors"></button>
     </div>
     
-    <div class="computer-player">
-        <div>
-            <p class="compContent">Computer Score: </p>
-        </div>
-        <div>
-            <p class="playContent">Player Score:</p>
-        </div>
-    </div>
-    <div class="roundCurrent">
-        <p class="round-winner">Last Round: </p>
-    </div>
+    
 
 <script src="code.js"></script>
 </body>
