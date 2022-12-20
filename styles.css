@@ -51,6 +51,11 @@ input {
     
 }
 
+#rockPaperScissors {
+    display: flex;
+    gap: 50px;
+}
+
 
 .btn {
     border-style: solid 1px;
